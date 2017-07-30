@@ -1,0 +1,239 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="patient.medical.dt.mediaid.fragment.DietChart">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:stretchColumns="0,1,2">
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#000000">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/endColor"
+                android:gravity="center"
+                android:text=" Time Zone"
+
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:layout_weight="2"
+                android:background="@color/startColor"
+                android:gravity="center"
+                android:text="Food" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="2"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/endColor"
+                android:gravity="center"
+                android:text="Calories" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#000000">
+
+            <TextView
+                android:id="@+id/txtTime1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="top|center"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/txtFood1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:layout_weight="2"
+                android:background="#FFFFFF"
+                android:gravity="top|center"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/txtCalory1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_column="2"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="top|center" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#000000">
+
+            <TextView
+                android:id="@+id/txtTime2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="top|center"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/txtFood2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:layout_weight="2"
+                android:background="#FFFFFF"
+                android:gravity="top|center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txtCalory2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_column="2"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="top|center" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#000000">
+
+            <TextView
+                android:id="@+id/txtTime3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="top|center"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/txtFood3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:layout_weight="2"
+                android:background="#FFFFFF"
+                android:gravity="top|center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txtCalory3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_column="2"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="top|center"
+                android:paddingTop="10dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#000000">
+
+            <TextView
+                android:id="@+id/txtTime4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="top|center"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/txtFood4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2"
+                android:background="#FFFFFF"
+                android:gravity="top|center"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/txtCalory4"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_column="2"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="top|center"
+                android:paddingTop="10dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#000000">
+
+
+        </TableRow>
+
+
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_progressbar" />
+
+        <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/selectdoctorlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:context="patient.medical.dt.mediaid.fragment.SelectDoctor">
+
+            <patient.medical.dt.mediaid.views.MyTextViewNormal
+                style="@style/Select_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Hospital" />
+
+            <patient.medical.dt.mediaid.views.MyTextViewNormal
+                android:id="@+id/txtHospital"
+                style="@style/Names_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lineColor"
+
+                />
+
+            <patient.medical.dt.mediaid.views.MyTextViewNormal
+                style="@style/Select_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Doctor" />
+
+            <patient.medical.dt.mediaid.views.MyTextViewNormal
+                android:id="@+id/txtDoctor"
+                style="@style/Names_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lineColor"
+
+                />
+
+            <patient.medical.dt.mediaid.views.MyTextViewNormal
+                style="@style/Select_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Date" />
+
+            <patient.medical.dt.mediaid.views.MyTextViewNormal
+                android:id="@+id/txtDate"
+                style="@style/Names_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lineColor"
+
+                />
+
+            <patient.medical.dt.mediaid.views.MyTextViewNormal
+                style="@style/Select_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Time"
+
+                />
+
+            <patient.medical.dt.mediaid.views.MyTextViewNormal
+                android:id="@+id/txtTime"
+                style="@style/Names_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lineColor"
+
+                />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/list_gradbutton"
+                android:text="Submit"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Appointment"
+            android:icon="@drawable/ic_appointment"
+            android:theme="@style/ItemText"
+            android:title="@string/PatientDrawable_txtAppointments_text" />
+        <item
+            android:id="@+id/Manageprofile"
+            android:icon="@drawable/ic_manage"
+            android:theme="@style/ItemText"
+            android:title="@string/PatientDrawable_txtManageProfile_text" />
+
+        <item
+            android:id="@+id/Reports"
+            android:icon="@drawable/ic_report"
+            android:theme="@style/ItemText"
+            android:title="@string/ReportActivity_txtReport_text" />
+        <item
+            android:id="@+id/selectDoctor"
+            android:icon="@drawable/ic_doctor"
+            android:theme="@style/ItemText"
+            android:title="@string/PatientDrawable_txtSelDoc_text" />
+    </group>
+    <item
+        android:theme="@style/ItemTexttag"
+        android:title="@string/PatientDrawable_txtFitness_text">
+        <menu>
+            <item
+                android:id="@+id/Bmi"
+                android:icon="@drawable/ic_bmi"
+                android:theme="@style/ItemText"
+                android:title="Bmi" />
+            <item
+                android:id="@+id/DietChart"
+                android:icon="@drawable/ic_diet"
+                android:theme="@style/ItemText"
+                android:title="DietChart" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:theme="@style/ItemText"
+        android:title="@string/PatientDrawable_txtLogout_text" />
+</menu>
